@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location & Hours - The Cozy Corner Café</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        </header>
+
+    <main class="location-page">
+        <h1>Find Our Corner</h1>
+
+        <section class="contact-details">
+            <h2>Visit Us</h2>
+            <p><strong>Address:</strong> 123 Coffee Lane, Central City, CA 90210</p>
+            <p><strong>Phone:</strong> (555) 123-4567</p>
+            </section>
+        
+        <section class="hours-accordion">
+            <h2>Operating Hours</h2>
+            <div class="accordion-item">
+                <button class="accordion-header" aria-expanded="true" aria-controls="daily-hours">
+                    <span>Daily Hours (Mon - Fri)</span> <span class="icon">+</span>
+                </button>
+                <div class="accordion-content active" id="daily-hours">
+                    <p>6:30 AM - 5:00 PM</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <button class="accordion-header" aria-expanded="false" aria-controls="weekend-hours">
+                    <span>Weekend Hours (Sat - Sun)</span> <span class="icon">+</span>
+                </button>
+                <div class="accordion-content" id="weekend-hours">
+                    <p>8:00 AM - 4:00 PM</p>
+                </div>
+            </div>
+            </section>
+
+    </main>
+
+    <footer class="site-footer">
+        </footer>
+
+    <script src="js/menu.js"></script>
+    <script src="js/accordion.js"></script>
+</body>
+</html>

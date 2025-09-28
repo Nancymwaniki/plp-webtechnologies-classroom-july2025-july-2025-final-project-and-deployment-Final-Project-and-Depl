@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - The Cozy Corner Café</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="site-header">
+        </header>
+
+    <main class="menu-page">
+        <h1>Our Full Menu</h1>
+
+        <nav class="menu-filters">
+            <button data-filter="all" class="active">All</button>
+            <button data-filter="coffee">Coffee & Tea</button>
+            <button data-filter="pastries">Pastries</button>
+            <button data-filter="lunch">Lunch</button>
+        </nav>
+
+        <section class="menu-items-grid" id="menu-container">
+
+            <article class="menu-item" data-category="coffee">
+                <h3>Espresso</h3><span class="price">$3.00</span>
+                <p>A double shot of our signature blend.</p>
+            </article>
+
+            <article class="menu-item" data-category="pastries">
+                <h3>Almond Croissant</h3><span class="price">$4.50</span>
+                <p>Flaky pastry filled with sweet almond paste.</p>
+            </article>
+            
+            <article class="menu-item" data-category="coffee">
+                <h3>Latte</h3><span class="price">$4.50</span>
+                <p>Espresso with steamed milk and a thin layer of foam.</p>
+            </article>
+
+            <article class="menu-item" data-category="lunch">
+                <h3>Avocado Toast</h3><span class="price">$9.00</span>
+                <p>Smashed avocado, sea salt, chili flakes on sourdough.</p>
+            </article>
+            </section>
+
+    </main>
+
+    <footer class="site-footer">
+        </footer>
+
+    <script src="js/menu.js"></script>
+    <script src="js/menu-filter.js"></script>
+</body>
+</html>
